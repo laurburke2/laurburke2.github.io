@@ -31,6 +31,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
   - Jekyll-include-cache
+  
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
