@@ -27,7 +27,7 @@ twitter_username: lauren_e_burke
 github_username:  laurburke
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - Jekyll-include-cache
