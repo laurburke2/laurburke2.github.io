@@ -30,7 +30,7 @@ github_username:  laurburke
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  - Jekyll-include-cache
+  - jekyll-include-cache
   
 # Conversion
 markdown: kramdown
