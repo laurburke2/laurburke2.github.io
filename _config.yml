@@ -27,10 +27,11 @@ twitter_username: lauren_e_burke
 github_username:  laurburke
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minima
+#remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
+#  - jekyll-include-cache
   
 # Conversion
 markdown: kramdown
