@@ -1,24 +1,14 @@
  main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Portfolio"
+    url: /porfolio/
   - title: "About"
     url: /about/
   - title: "Contact"
     url: /contact/
-  - title: "Portfolio"
-    url: /porfolio/
-  - title: "Posts"
-    url: /posts/
-  - title: "Blog"
-    url: /blog/
-    
   - title: "GitHub"
     url: https://github.com/laurburke
-  - title: "More"
-    sublinks:
-      - title: "Talks"
-        url: /talks/
-      - title: "Resume"
-        url: /resume/
-    
   
   # Drop Down Menu
   # - title: More
