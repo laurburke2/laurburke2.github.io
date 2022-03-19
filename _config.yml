@@ -98,6 +98,7 @@ analytics:
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate-v2
   
 # Conversion
 markdown: kramdown
@@ -108,7 +109,6 @@ incremental: false
 
 # Include
 include:
-  - .htaccess
   - _pages
 
 # Exclude from processing.
