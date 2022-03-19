@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+title: Contact
+layout: single
+permalink: /contact/
+author_profile: false
 ---
+
+Hello! Send me a note via <a href="mailto:laurenemilyburke17@gmail.com" style="text-decoration: none; color:#039fb9">email</a>. 

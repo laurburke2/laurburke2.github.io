@@ -17,22 +17,7 @@ github_username:  laurburke
 repository: "laurburke2/laureburke2.github.io"
 
 locale: "en-US"
-logo:
-
-# Site Author Profile
-author:
-  name             : "Lauren Burke"
-  avatar           : "assets/images/lauren-burke-headshot.jpeg"
-  bio              : "Data Scientist & Jekyll Enthusiast"
-  location         : "Columbus, OH"
-  email            : laurenemilyburke17@gmail.com
-  facebook         :
-  github           : "laurburke"
-  instagram        :
-  linkedin         : "lauren-e-burke"
-  twitter          : "lauren_e_burke"
-  youtube          :
-
+logo: "assets/images/LB-round.png"
 
 # Author Profile
 author:
@@ -98,7 +83,6 @@ analytics:
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-paginate-v2
   
 # Conversion
 markdown: kramdown
@@ -129,6 +113,12 @@ paginate: 5  # posts per page
 #paginate_path: /page:num/
 paginate_path: /blog/page:num
 
+# Collections
+collections:
+  porfolio:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Post Formatting
 defaults:
@@ -137,20 +127,32 @@ defaults:
       path: ""
       type: posts
     values:
-      #layout: single
+      layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: false
       related: true
+      show_date: true
   #pages
   - scope:
       path: ""
       type: pages
     values:
-      #layout: single
+      layout: single
       author_profile: true
       read_time: false
       comments: true
       share: false
       related: true
+  #_portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
