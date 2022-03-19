@@ -1,14 +1,102 @@
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+#theme: minima  # base Jekyll theme
+
+
 # Site settings
-title: Lauren's Blog
+title: "Lauren Burke"
+title_separator: "|"
+subtite: "My Data Blog"
 email: laurenemilyburke17@gmail.com
 description: This is my data blog! I can add a description here. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://laurburke2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lauren_e_burke
 github_username:  laurburke
+repository: "laurburke2/laureburke2.github.io"
+
+locale: "en-US"
+logo:
+
+# Site Author Profile
+author:
+  name             : "Lauren Burke"
+  avatar           : "assets/images/lauren-burke-headshot.jpeg"
+  bio              : "Data Scientist & Jekyll Enthusiast"
+  location         : "Columbus, OH"
+  email            : laurenemilyburke17@gmail.com
+  facebook         :
+  github           : "laurburke"
+  instagram        :
+  linkedin         : "lauren-e-burke"
+  twitter          : "lauren_e_burke"
+  youtube          :
+
+
+
+
+# Author Profile
+author:
+  name             : "Lauren Burke"
+  avatar           : "assets/images/lauren-burke-headshot.jpeg"
+  bio              : "Data Scientist & Jekyll Enthusiast"
+  location         : "Columbus, OH"
+  email            : laurenemilyburke17@gmail.com
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "laurburke"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "lauren-e-burke"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : "lauren_e_burke"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+
+
+## Social Sharing
+#twitter:
+#  username:
+#facebook:
+#  username:
+#
+
+
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/lauren_e_burke"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/lauren-e-burke"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/laurburke"
+
+# Analytics
+analytics:
+  provider: # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id: # Ex. UA-XXXXXXXXX-XX
+    anonymize_ip: #true, false (default)
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -20,6 +108,10 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# Include
+include:
+  - .htaccess
+  - _pages
 
 # Exclude from processing.
 # exclude:
@@ -33,3 +125,29 @@ incremental: false
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+# Post Formatting
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      #layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
+  #pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      #layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
