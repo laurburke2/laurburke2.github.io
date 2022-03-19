@@ -34,8 +34,6 @@ author:
   youtube          :
 
 
-
-
 # Author Profile
 author:
   name             : "Lauren Burke"
@@ -125,6 +123,11 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Pagination
+paginate: 5  # posts per page
+#paginate_path: /page:num/
+paginate_path: /blog/page:num
 
 
 # Post Formatting

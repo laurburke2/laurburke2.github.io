@@ -7,6 +7,9 @@
     url: /porfolio/
   - title: "Posts"
     url: /posts/
+  - title: "Blog"
+    url: /blog/
+    
   - title: "GitHub"
     url: https://github.com/laurburke
   - title: "More"
