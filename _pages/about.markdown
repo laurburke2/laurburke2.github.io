@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: single
+title: About
+permalink: /about/
+author_profile: true
 ---
+
+Use the About page to share more about your background, skills, and interests. 
