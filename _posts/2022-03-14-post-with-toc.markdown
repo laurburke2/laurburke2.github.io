@@ -8,7 +8,6 @@ categories:
 tags:
   - jekyll
   - github pages
-  - table of contents
   - extras
 
 toc: true

@@ -9,7 +9,6 @@ tags:
   - jekyll
   - github pages
   - link
-  - extras
 
 link: https://laurburke2.github.io/portfolio
 ---

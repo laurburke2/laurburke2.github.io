@@ -10,7 +10,6 @@ categories:
 tags:
   - jekyll
   - github pages
-  - header image
   - images
 ---
 
