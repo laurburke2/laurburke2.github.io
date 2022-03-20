@@ -10,9 +10,7 @@ main:
   - title: "GitHub"
     url: https://github.com/laurburke
   
-  
-## Sidebar
-# Displays under Author Profile
+# Sidebar - displays under Author Profile
 my_sidebar:
   - title: Archives
     children:
@@ -20,5 +18,3 @@ my_sidebar:
         url: /categories/
       - title: "Tag"
         url: /tags/
-      - title: "Year"
-        url: /years/

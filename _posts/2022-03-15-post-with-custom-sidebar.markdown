@@ -12,7 +12,7 @@ tags:
 
 sidebar:
   - title: "Custom Sidebar"
-    image: /assets/images/sidebar-image.png
+    image: /assets/images/sidebar_images/code-symbol.png
     text: "Add some custom text here!"
     nav: my_sidebar
 ---

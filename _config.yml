@@ -144,6 +144,8 @@ defaults:
       share: false
       related: true
       show_date: true
+      sidebar:
+        nav: "my_sidebar"
   #pages
   - scope:
       path: ""
@@ -154,7 +156,9 @@ defaults:
       read_time: false
       comments: true
       share: false
-      related: true
+      related: false
+      sidebar:
+        nav: "my_sidebar"
   #_portfolio
   - scope:
       path: ""
