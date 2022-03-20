@@ -7,7 +7,7 @@ categories:
 
 tags:
   - jekyll
-  - gitHub pages
+  - github pages
   - image
 ---
 

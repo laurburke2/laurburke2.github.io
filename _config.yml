@@ -118,7 +118,17 @@ collections:
   porfolio:
     output: true
     permalink: /:collection/:path/
+  archives:
+    output: true
+    permalink: /archives/:path/
 
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # Post Formatting
 defaults:

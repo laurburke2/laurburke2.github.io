@@ -11,13 +11,14 @@ main:
     url: https://github.com/laurburke
   
   
-
-  # Drop Down Menu
-  # - title: More
-  #   sublinks:
-  #     - title: "Talks"
-  #       url: /talks/
-  #     - title: "Resume"
-  #       url: /resume/
-  #     - title: "Archive"
-  #       url: /archive/
+## Sidebar
+# Displays under Author Profile
+my_sidebar:
+  - title: Archives
+    children:
+      - title: "Category"
+        url: /categories/
+      - title: "Tag"
+        url: /tags/
+      - title: "Year"
+        url: /years/

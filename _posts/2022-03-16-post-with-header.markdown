@@ -9,8 +9,9 @@ categories:
 
 tags:
   - jekyll
-  - gitHub pages
+  - github pages
   - header image
+  - images
 ---
 
 This post has a header image!

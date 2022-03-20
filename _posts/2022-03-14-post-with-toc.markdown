@@ -7,8 +7,9 @@ categories:
 
 tags:
   - jekyll
-  - gitHub pages
+  - github pages
   - table of contents
+  - extras
 
 toc: true
 toc_sticky: true

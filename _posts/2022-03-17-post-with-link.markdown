@@ -7,8 +7,9 @@ categories:
 
 tags:
   - jekyll
-  - gitHub pages
+  - github pages
   - link
+  - extras
 
 link: https://laurburke2.github.io/portfolio
 ---
